@@ -1,0 +1,76 @@
+.inputform_MainDiv{
+    font-family:Century Gothic;
+    height:100%;
+    overflow:auto;
+}
+
+.inputform_SaveDiv{
+    position:absolute;
+    right:0;
+    margin-right:30px;
+}
+
+.inputform_MainTable{
+    font-size:10px;
+    min-width:500px;
+}
+
+.inputform_LabelStyle{
+    color:#006DB4;
+}
+
+.inputform_CheckList{
+    border:1px solid gray;
+    width:200px;
+    min-height:120px;
+}
+
+.inputform_Text{
+    font-size:12px;
+    min-width:150px;
+}
+
+.inputform_TextArea{
+    font-family:Century Gothic;
+    font-size:12px;
+    min-width:300px;
+    min-height:70px;
+    width:100%
+}
+
+.inputform_CheckListLabel{
+    font-family:Century Gothic;
+    font-size:12px;
+}
+
+.inputform_CheckListRow{
+    width:20px;
+}
+
+
+.inputform_Select{
+    font-family:Century Gothic;
+    font-size:12px;
+}
+
+.inputform_DateTime{
+    font-family:Century Gothic;
+    font-size:12px;
+    min-width:150px;
+}
+
+.inputform_requiredMessage{
+    position:absolute;
+    font-size:10px;
+    bottom:20px;
+    color:#006DB4;
+ }
+
+.inputform_errorMessage{
+    position:absolute;
+    font-size:10px;
+    bottom:20px;
+    color:red;
+    margin-bottom:20px;
+    text-align:center;
+}

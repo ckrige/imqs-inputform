@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <div><h3>Input form control creation.</h3>
+        <hr>
+        <p>Create a new instance of the InputForm class. The class expects 2 values - the name of the control into which it should create its content (string), and a whether or not it should support editing (boolean) </p>
+        <h6>var inputform = new imqs.InputForm("content",true) ;</h6>
+        <p>Add all controls that are required to the fields property on the control.The field property is an array that expects items of type InputFormField.</p>
+        <h6>inputform.fields.push(new imqs.InputFormField(true,true,"Project Number:",imqs.InputFormFieldType.TEXT,1,"Project",["PR7465"],{"placeholder":"Unique Project Number"}));</h6>
+        <p>Call the show method to display all controls.</p>
+        <h6>inputform.show();</h6>
+
+
+
+
+    </div>
+</body>
+</html>
